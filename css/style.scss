@@ -1,0 +1,870 @@
+       :root {
+        /* Colors */
+        --dental-insurancev-2-blue-blue-50: #e6f1f8;
+        --dental-insurancev-2-blue-blue-100: #b0d5e8;
+        --dental-insurancev-2-blue-blue-200: #8ac0dd;
+        --dental-insurancev-2-blue-blue-300: #54a4ce;
+        --dental-insurancev-2-blue-blue-400: #3392c5;
+        --dental-insurancev-2-blue-blue-500: #0077b6;
+        --dental-insurancev-2-blue-blue-600: #006ca6;
+        --dental-insurancev-2-blue-blue-700: #005481;
+        --dental-insurancev-2-blue-blue-800: #004164;
+        --dental-insurancev-2-blue-blue-900: #00324c;
+        --dental-insurancev-2-light-blue-lightblue-50: #e6f5f9;
+        --dental-insurancev-2-light-blue-lightblue-100: #b0deee;
+        --dental-insurancev-2-light-blue-lightblue-200: #8acfe5;
+        --dental-insurancev-2-light-blue-lightblue-300: #54b9d9;
+        --dental-insurancev-2-light-blue-lightblue-400: #33abd2;
+        --dental-insurancev-2-light-blue-lightblue-500: #0096c7;
+        --dental-insurancev-2-light-blue-lightblue-600: #0089b5;
+        --dental-insurancev-2-light-blue-lightblue-700: #006b8d;
+        --dental-insurancev-2-light-blue-lightblue-800: #00536d;
+        --dental-insurancev-2-light-blue-lightblue-900: #003f54;
+        --dental-insurancev-2-green-green-50: #e6f2ef;
+        --dental-insurancev-2-green-green-100: #b0d7cd;
+        --dental-insurancev-2-green-green-200: #8ac4b5;
+        --dental-insurancev-2-green-green-300: #54a994;
+        --dental-insurancev-2-green-green-400: #33997f;
+        --dental-insurancev-2-green-green-500: #007f5f;
+        --dental-insurancev-2-green-green-600: #007456;
+        --dental-insurancev-2-green-green-700: #005a43;
+        --dental-insurancev-2-green-green-800: #004634;
+        --dental-insurancev-2-green-green-900: #003528;
+        --dental-insurancev-2-light-green-lightgreen-50: #f3fbf5;
+        --dental-insurancev-2-light-green-lightgreen-100: #daf2df;
+        --dental-insurancev-2-light-green-lightgreen-200: #c8ebd0;
+        --dental-insurancev-2-light-green-lightgreen-300: #afe2ba;
+        --dental-insurancev-2-light-green-lightgreen-400: #a0ddad;
+        --dental-insurancev-2-light-green-lightgreen-500: #88d498;
+        --dental-insurancev-2-light-green-lightgreen-600: #7cc18a;
+        --dental-insurancev-2-light-green-lightgreen-700: #61976c;
+        --dental-insurancev-2-light-green-lightgreen-800: #4b7554;
+        --dental-insurancev-2-light-green-lightgreen-900: #395940;
+        --dental-insurancev-2-orange-orange-50: #fef2e6;
+        --dental-insurancev-2-orange-orange-100: #fdd7b0;
+        --dental-insurancev-2-orange-orange-200: #fbc48a;
+        --dental-insurancev-2-orange-orange-300: #faa954;
+        --dental-insurancev-2-orange-orange-400: #f99933;
+        --dental-insurancev-2-orange-orange-500: #f77f00;
+        --dental-insurancev-2-orange-orange-600: #e17400;
+        --dental-insurancev-2-orange-orange-700: #af5a00;
+        --dental-insurancev-2-orange-orange-800: #884600;
+        --dental-insurancev-2-orange-orange-900: #683500;
+        --dental-insurancev-2-dark-orange-darkorange-50: #fceae6;
+        --dental-insurancev-2-dark-orange-darkorange-100: #f4bfb1;
+        --dental-insurancev-2-dark-orange-darkorange-200: #ef9f8b;
+        --dental-insurancev-2-dark-orange-darkorange-300: #e87455;
+        --dental-insurancev-2-dark-orange-darkorange-400: #e35935;
+        --dental-insurancev-2-dark-orange-darkorange-500: #dc2f02;
+        --dental-insurancev-2-dark-orange-darkorange-600: #c82b02;
+        --dental-insurancev-2-dark-orange-darkorange-700: #9c2101;
+        --dental-insurancev-2-dark-orange-darkorange-800: #791a01;
+        --dental-insurancev-2-dark-orange-darkorange-900: #5c1401;
+        --dental-insurancev-2-grey-grey-50: #fcfcfc;
+        --dental-insurancev-2-grey-grey-100: #f5f5f5;
+        --dental-insurancev-2-grey-grey-200: #f0f0f0;
+        --dental-insurancev-2-grey-grey-300: #e9e9e9;
+        --dental-insurancev-2-grey-grey-400: #e5e5e5;
+        --dental-insurancev-2-grey-grey-500: #dedede;
+        --dental-insurancev-2-grey-grey-600: #cacaca;
+        --dental-insurancev-2-grey-grey-700: #9e9e9e;
+        --dental-insurancev-2-grey-grey-800: #7a7a7a;
+        --dental-insurancev-2-grey-grey-900: #5d5d5d;
+        --dental-insurancev-2-neutral-neutral-50: #f5f6f8;
+        --dental-insurancev-2-neutral-neutral-100: #e0e4ea;
+        --dental-insurancev-2-neutral-neutral-200: #d1d7e0;
+        --dental-insurancev-2-neutral-neutral-300: #bcc4d1;
+        --dental-insurancev-2-neutral-neutral-400: #afb9c9;
+        --dental-insurancev-2-neutral-neutral-500: #9ba7bb;
+        --dental-insurancev-2-neutral-neutral-600: #8d98aa;
+        --dental-insurancev-2-neutral-neutral-700: #6e7785;
+        --dental-insurancev-2-neutral-neutral-800: #555c67;
+        --dental-insurancev-2-neutral-neutral-900: #41464f;
+        --dental-insurancev-2-warm-neutral-warmneutral-50: #fdfdfb;
+        --dental-insurancev-2-warm-neutral-warmneutral-100: #f8f8f3;
+        --dental-insurancev-2-warm-neutral-warmneutral-200: #f5f5ed;
+        --dental-insurancev-2-warm-neutral-warmneutral-300: #f0f0e5;
+        --dental-insurancev-2-warm-neutral-warmneutral-400: #edede0;
+        --dental-insurancev-2-warm-neutral-warmneutral-500: #e9e9d8;
+        --dental-insurancev-2-warm-neutral-warmneutral-600: #d4d4c5;
+        --dental-insurancev-2-warm-neutral-warmneutral-700: #a5a599;
+        --dental-insurancev-2-warm-neutral-warmneutral-800: #808077;
+        --dental-insurancev-2-warm-neutral-warmneutral-900: #62625b;
+        --dental-insurancev-2-yellow-yellow-50: #fff9ed;
+        --dental-insurancev-2-yellow-yellow-100: #feebc7;
+        --dental-insurancev-2-yellow-yellow-200: #fee2ab;
+        --dental-insurancev-2-yellow-yellow-300: #fdd485;
+        --dental-insurancev-2-yellow-yellow-400: #fdcc6d;
+        --dental-insurancev-2-yellow-yellow-500: #fcbf49;
+        --dental-insurancev-2-yellow-yellow-600: #e5ae42;
+        --dental-insurancev-2-yellow-yellow-700: #b38834;
+        --dental-insurancev-2-yellow-yellow-800: #8b6928;
+        --dental-insurancev-2-yellow-yellow-900: #6a501f;
+        --dental-insurancev-2-red-red-50: #fae6e6;
+        --dental-insurancev-2-red-red-100: #f0b0b0;
+        --dental-insurancev-2-red-red-200: #e98a8a;
+        --dental-insurancev-2-red-red-300: #e05454;
+        --dental-insurancev-2-red-red-400: #d93333;
+        --dental-insurancev-2-red-red-500: #d00000;
+        --dental-insurancev-2-red-red-600: #bd0000;
+        --dental-insurancev-2-red-red-700: #940000;
+        --dental-insurancev-2-red-red-800: #720000;
+        --dental-insurancev-2-red-red-900: #570000;
+        --dental-insurancev-2-gradient-gradient-1: linear-gradient(
+            60deg,
+            rgba(0, 150, 199, 1) 0%,
+            rgba(0, 120, 181, 1) 100%
+        );
+        --dental-insurancev-2-gradient-2: linear-gradient(
+            180deg,
+            rgba(176, 222, 238, 1) 0%,
+            rgba(255, 255, 255, 1) 100%
+        );
+        --dental-insurance-v-1-basic-bkgd-gr: linear-gradient(
+            to left,
+            #525252,
+            #525252
+            ),
+            linear-gradient(to left, #494e6b, #494e6b),
+            linear-gradient(to left, #c1f8ed, #c1f8ed);
+        --dental-insurance-v-1-basic-textblack: linear-gradient(
+            to left,
+            #151515,
+            #151515
+            ),
+            linear-gradient(to left, #494e6b, #494e6b);
+        --dental-insurance-v-1-basic-lightgr: linear-gradient(
+            to left,
+            #dedede,
+            #dedede
+            ),
+            linear-gradient(to left, #ffffff, #ffffff),
+            linear-gradient(to left, #000000, #000000);
+        --dental-insurance-v-1-basic-verylightgrey: linear-gradient(
+            to left,
+            #efefef,
+            #efefef
+            ),
+            linear-gradient(to left, #ffffff, #ffffff),
+            linear-gradient(to left, #000000, #000000);
+        --dental-insurance-v-1-basic-links: #223cd6;
+        --dental-insurance-v-1-basic-primary: #223cd6;
+        --dental-insurance-v-1-basic-purple: #961e6c;
+        --dental-insurance-v-1-basic-dark-blue: #141d47;
+        --dental-insurance-v-1-basic-orange: #f2b642;
+        --dental-insurance-v-1-basic-light-green: #e1fe8e;
+        --dental-insurance-v-1-basic-peach: #df7670;
+        --dental-insurance-v-1-basic-light-purple: #b17e9f;
+        --dental-insurance-v-1-basic-brown: #7b6d6c;
+        --dental-insurance-v-1-basic-cream: #e6dfc8;
+        --dental-insurance-v-1-basic-light-blue: #3072aa;
+        --dental-insurance-v-1-basic-gradient-1: radial-gradient(
+            closest-side,
+            rgba(223, 118, 112, 1) 0%,
+            rgba(225, 254, 142, 1) 100%
+        );
+        --dental-insurance-v-1-gradient-05: linear-gradient(
+            224.42deg,
+            rgba(48, 114, 170, 1) 0%,
+            rgba(48, 114, 170, 0) 100%
+            ),
+            linear-gradient(to left, #ffffff, #ffffff);
+        --dental-insurance-v-1-gradient-06: linear-gradient(
+            223.3deg,
+            rgba(242, 182, 66, 1) 0%,
+            rgba(242, 182, 66, 0) 100%
+            ),
+            linear-gradient(
+            -44.39deg,
+            rgba(48, 114, 170, 1) 2.8861455619335175%,
+            rgba(48, 114, 170, 0) 100%
+            ),
+            radial-gradient(
+            closest-side,
+            rgba(225, 254, 142, 1) 0%,
+            rgba(225, 254, 142, 0) 100%
+            ),
+            linear-gradient(to left, #ffffff, #ffffff);
+        --dental-insurance-v-1-gradient-07: linear-gradient(
+            -44.39deg,
+            rgba(48, 114, 170, 1) 2.8861455619335175%,
+            rgba(48, 114, 170, 0) 100%
+            ),
+            radial-gradient(
+            closest-side,
+            rgba(225, 254, 142, 1) 0%,
+            rgba(225, 254, 142, 0) 100%
+            ),
+            linear-gradient(to left, #ffffff, #ffffff);
+        --dental-insurance-v-1-gradient-08: linear-gradient(
+            222.8deg,
+            rgba(150, 30, 108, 1) 0%,
+            rgba(150, 30, 108, 0) 100%
+            ),
+            linear-gradient(
+            135.58deg,
+            rgba(242, 182, 66, 1) 0%,
+            rgba(242, 182, 66, 0) 100%
+            ),
+            linear-gradient(
+            -43.45deg,
+            rgba(48, 114, 170, 1) 0%,
+            rgba(48, 114, 170, 0) 100%
+            ),
+            linear-gradient(to left, #ffffff, #ffffff);
+        --dental-insurance-v-1-gradient-09: linear-gradient(
+            135.58deg,
+            rgba(242, 182, 66, 1) 0%,
+            rgba(242, 182, 66, 0) 100%
+            ),
+            radial-gradient(
+            closest-side,
+            rgba(48, 114, 170, 1) 0%,
+            rgba(48, 114, 170, 0) 100%
+            ),
+            linear-gradient(to left, #ffffff, #ffffff);
+        --dental-insurance-v-1-gradient-10: linear-gradient(
+            135.58deg,
+            rgba(242, 182, 66, 1) 0%,
+            rgba(242, 182, 66, 0) 100%
+            ),
+            radial-gradient(
+            closest-side,
+            rgba(177, 126, 159, 1) 0%,
+            rgba(177, 126, 159, 0) 100%
+            ),
+            linear-gradient(to left, #ffffff, #ffffff);
+        --dental-insurance-v-1-gradient-11: linear-gradient(
+            135.58deg,
+            rgba(242, 182, 66, 1) 0%,
+            rgba(242, 182, 66, 0) 100%
+            ),
+            linear-gradient(to left, #ffffff, #ffffff);
+        --dental-insurance-v-1-gradient-11-1: linear-gradient(
+            -44.42deg,
+            rgba(242, 182, 66, 1) 0%,
+            rgba(242, 182, 66, 0) 100%
+            ),
+            linear-gradient(to left, #ffffff, #ffffff);
+        --dental-insurance-v-1-gradient-11-2: linear-gradient(
+            223.65deg,
+            rgba(242, 182, 66, 1) 0%,
+            rgba(242, 182, 66, 0) 100%
+            ),
+            linear-gradient(to left, #ffffff, #ffffff);
+        --dental-insurance-v-1-gradient-11-3: linear-gradient(
+            43.65deg,
+            rgba(242, 182, 66, 1) 0%,
+            rgba(242, 182, 66, 0) 100%
+            ),
+            linear-gradient(to left, #ffffff, #ffffff);
+        --dental-insurance-v-1-gradient-12: radial-gradient(
+            closest-side,
+            rgba(242, 182, 66, 1) 0%,
+            rgba(242, 182, 66, 0) 100%
+            ),
+            linear-gradient(224.42deg, rgba(20, 29, 71, 1) 0%, rgba(20, 29, 71, 0) 100%),
+            linear-gradient(
+            135.58deg,
+            rgba(150, 30, 108, 1) 0%,
+            rgba(160, 31, 115, 0) 100%
+            ),
+            linear-gradient(to left, #ffffff, #ffffff);
+        --dental-insurance-v-1-gradient-13: radial-gradient(
+            closest-side,
+            rgba(225, 254, 142, 1) 0%,
+            rgba(223, 118, 112, 1) 100%
+        );
+        --dental-insurance-v-1-gradient-14: radial-gradient(
+            closest-side,
+            rgba(223, 118, 112, 1) 0%,
+            rgba(225, 254, 142, 1) 100%
+        );
+        --dental-insurance-v-1-gradient-01: linear-gradient(
+            135.29deg,
+            rgba(20, 29, 71, 1) 0%,
+            rgba(20, 29, 71, 0) 100%
+            ),
+            radial-gradient(
+            closest-side,
+            rgba(225, 254, 142, 1) 0%,
+            rgba(225, 254, 142, 0) 100%
+            ),
+            linear-gradient(to left, #ffffff, #ffffff);
+        --dental-insurance-v-1-gradient-02: radial-gradient(
+            closest-side,
+            rgba(20, 29, 71, 1) 0%,
+            rgba(20, 29, 71, 0) 100%
+            ),
+            linear-gradient(
+            135.58deg,
+            rgba(225, 254, 142, 1) 0%,
+            rgba(225, 254, 142, 0) 100%
+            ),
+            linear-gradient(to left, #ffffff, #ffffff);
+        --dental-insurance-v-1-gradient-03: radial-gradient(
+            closest-side,
+            rgba(20, 29, 71, 1) 0%,
+            rgba(20, 29, 71, 0) 100%
+            ),
+            linear-gradient(to left, #ffffff, #ffffff);
+        --dental-insurance-v-1-gradient-04: linear-gradient(
+            -44.15deg,
+            rgba(20, 29, 71, 1) 0%,
+            rgba(20, 29, 71, 0) 100%
+            ),
+            linear-gradient(
+            224.42deg,
+            rgba(48, 114, 170, 1) 0%,
+            rgba(48, 114, 170, 0) 100%
+            ),
+            linear-gradient(to left, #ffffff, #ffffff);
+        --dental-insurance-v-1-gradient-15: linear-gradient(
+            224.42deg,
+            rgba(20, 48, 71, 1) 0%,
+            rgba(43, 104, 154, 1) 100%
+        );
+        --dental-insurance-v-1-dark-blue-darkblue-50: #e8e8ed;
+        --dental-insurance-v-1-dark-blue-darkblue-100: #b6b9c6;
+        --dental-insurance-v-1-dark-blue-darkblue-200: #9397aa;
+        --dental-insurance-v-1-dark-blue-darkblue-300: #626884;
+        --dental-insurance-v-1-dark-blue-darkblue-400: #434a6c;
+        --dental-insurance-v-1-dark-blue-darkblue-500: #141d47;
+        --dental-insurance-v-1-dark-blue-darkblue-600: #121a41;
+        --dental-insurance-v-1-dark-blue-darkblue-700: #0e1532;
+        --dental-insurance-v-1-dark-blue-darkblue-800: #0b1027;
+        --dental-insurance-v-1-dark-blue-darkblue-900: #080c1e;
+        --dental-insurance-v-1-light-blue-lightblue-50: #eaf1f6;
+        --dental-insurance-v-1-light-blue-lightblue-100: #bfd3e4;
+        --dental-insurance-v-1-light-blue-lightblue-200: #9fbed7;
+        --dental-insurance-v-1-light-blue-lightblue-300: #74a1c5;
+        --dental-insurance-v-1-light-blue-lightblue-400: #598eba;
+        --dental-insurance-v-1-light-blue-lightblue-500: #2f72a9;
+        --dental-insurance-v-1-light-blue-lightblue-600: #2b689a;
+        --dental-insurance-v-1-light-blue-lightblue-700: #215178;
+        --dental-insurance-v-1-light-blue-lightblue-800: #1a3f5d;
+        --dental-insurance-v-1-light-blue-lightblue-900: #143047;
+        --dental-insurance-v-1-orange-orange-200: #f9dda8;
+        --dental-insurance-v-1-orange-orange-300: #f6ce80;
+        --dental-insurance-v-1-orange-orange-400: #f5c567;
+        --dental-insurance-v-1-orange-orange-500: #f2b641;
+        --dental-insurance-v-1-orange-orange-600: #dca63b;
+        --dental-insurance-v-1-orange-orange-700: #ac812e;
+        --dental-insurance-v-1-orange-orange-800: #856424;
+        --dental-insurance-v-1-orange-orange-900: #664c1b;
+        --dental-insurance-v-1-orange-orange-50: #fef8ec;
+        --dental-insurance-v-1-orange-orange-100: #fbe8c4;
+        --dental-insurance-v-1-cream-cream-50: #fdfcfa;
+        --dental-insurance-v-1-cream-cream-100: #f7f5ee;
+        --dental-insurance-v-1-cream-cream-200: #f4f0e6;
+        --dental-insurance-v-1-cream-cream-300: #eeeada;
+        --dental-insurance-v-1-cream-cream-400: #ebe5d3;
+        --dental-insurance-v-1-cream-cream-500: #e6dfc8;
+        --dental-insurance-v-1-cream-cream-600: #d1cbb6;
+        --dental-insurance-v-1-cream-cream-700: #a39e8e;
+        --dental-insurance-v-1-cream-cream-800: #7f7b6e;
+        --dental-insurance-v-1-cream-cream-900: #615e54;
+        --dental-insurance-v-1-brown-brown-50: #f2f0f0;
+        --dental-insurance-v-1-brown-brown-100: #d6d1d1;
+        --dental-insurance-v-1-brown-brown-200: #c2bbbb;
+        --dental-insurance-v-1-brown-brown-300: #a79d9d;
+        --dental-insurance-v-1-brown-brown-400: #958989;
+        --dental-insurance-v-1-brown-brown-500: #7b6c6c;
+        --dental-insurance-v-1-brown-brown-600: #706262;
+        --dental-insurance-v-1-brown-brown-700: #574d4d;
+        --dental-insurance-v-1-brown-brown-800: #443b3b;
+        --dental-insurance-v-1-brown-brown-900: #342d2d;
+        --dental-insurance-v-1-light-purple-lightpurple-50: #f7f2f5;
+        --dental-insurance-v-1-light-purple-lightpurple-100: #e7d7e1;
+        --dental-insurance-v-1-light-purple-lightpurple-200: #dbc4d3;
+        --dental-insurance-v-1-light-purple-lightpurple-300: #cba9bf;
+        --dental-insurance-v-1-light-purple-lightpurple-400: #c198b2;
+        --dental-insurance-v-1-light-purple-lightpurple-500: #b17e9f;
+        --dental-insurance-v-1-light-purple-lightpurple-600: #a17391;
+        --dental-insurance-v-1-light-purple-lightpurple-700: #7e5971;
+        --dental-insurance-v-1-light-purple-lightpurple-800: #614557;
+        --dental-insurance-v-1-light-purple-lightpurple-900: #4a3543;
+        --dental-insurance-v-1-peach-peach-50: #fcf1f1;
+        --dental-insurance-v-1-peach-peach-100: #f5d5d3;
+        --dental-insurance-v-1-peach-peach-200: #f0c0be;
+        --dental-insurance-v-1-peach-peach-300: #eaa3a0;
+        --dental-insurance-v-1-peach-peach-400: #e5918d;
+        --dental-insurance-v-1-peach-peach-500: #df7671;
+        --dental-insurance-v-1-peach-peach-600: #cb6b67;
+        --dental-insurance-v-1-peach-peach-700: #9e5450;
+        --dental-insurance-v-1-peach-peach-800: #7b413e;
+        --dental-insurance-v-1-peach-peach-900: #5e322f;
+        --dental-insurance-v-1-light-green-lightgreen-50: #fcfff4;
+        --dental-insurance-v-1-light-green-lightgreen-100: #f6ffdc;
+        --dental-insurance-v-1-light-green-lightgreen-200: #f1ffcb;
+        --dental-insurance-v-1-light-green-lightgreen-300: #ebfeb3;
+        --dental-insurance-v-1-light-green-lightgreen-400: #e7fea5;
+        --dental-insurance-v-1-light-green-lightgreen-500: #e1fe8e;
+        --dental-insurance-v-1-light-green-lightgreen-600: #cde781;
+        --dental-insurance-v-1-light-green-lightgreen-700: #a0b465;
+        --dental-insurance-v-1-light-green-lightgreen-800: #7c8c4e;
+        --dental-insurance-v-1-light-green-lightgreen-900: #5f6b3c;
+        --dental-insurance-v-1-red-red-50: #fceef1;
+        --dental-insurance-v-1-red-red-100: #f4cad3;
+        --dental-insurance-v-1-red-red-200: #efb0be;
+        --dental-insurance-v-1-red-red-300: #e88ca0;
+        --dental-insurance-v-1-red-red-400: #e4768d;
+        --dental-insurance-v-1-red-red-500: #dd5471;
+        --dental-insurance-v-1-red-red-600: #c94c67;
+        --dental-insurance-v-1-red-red-700: #9d3c50;
+        --dental-insurance-v-1-red-red-800: #7a2e3e;
+        --dental-insurance-v-1-red-red-900: #5d232f;
+        --dental-insurance-v-1-purple-purple-50: #f5e9f0;
+        --dental-insurance-v-1-purple-purple-100: #debad1;
+        --dental-insurance-v-1-purple-purple-200: #cf98bb;
+        --dental-insurance-v-1-purple-purple-300: #b9699c;
+        --dental-insurance-v-1-purple-purple-400: #ab4c89;
+        --dental-insurance-v-1-purple-purple-500: #961f6b;
+        --dental-insurance-v-1-purple-purple-600: #891c61;
+        --dental-insurance-v-1-purple-purple-700: #6b164c;
+        --dental-insurance-v-1-purple-purple-800: #53113b;
+        --dental-insurance-v-1-purple-purple-900: #3f0d2d;
+        --old-3-efeff: #3efeff;
+        --old-0-cafa-7: #0cafa7;
+        --old-098-a-82: #098a82;
+        --old-06655-e: #06655e;
+        --old-033-f-39: #033f39;
+        --old-001-a-14: #001a14;
+        --old-ffc-2-c-8: #ffc2c8;
+        --old-f-5839-a: #f5839a;
+        --old-eb-446-c: #eb446c;
+        --old-af-2-d-51: #af2d51;
+        --old-731735: #731735;
+        --old-37001-a: #37001a;
+        --old-fbf-7-bf: #fbf7bf;
+        --old-cfca-99: #cfca99;
+        --old-a-49-d-73: #a49d73;
+        --old-786-f-4-c: #786f4c;
+        --old-4-d-4226: #4d4226;
+        --old-211500: #211500;
+        --old-86-d-2-ff: #86d2ff;
+        --old-5-ba-0-c-3: #5ba0c3;
+        --old-2-f-6-d-87: #2f6d87;
+        --old-043-b-4-b: #043b4b;
+        --old-022-b-36: #022b36;
+        --old-001-b-21: #001b21;
+        --old-c-5-fff-5: #c5fff5;
+        --old-4-fe-8-ba: #4fe8ba;
+        --old-3-bb-58-f: #3bb58f;
+        --old-288364: #288364;
+        --old-145038: #145038;
+        --old-001-d-0-d: #001d0d;
+        --gradient-1: linear-gradient(
+            180deg,
+            rgba(176, 222, 238, 1) 0%,
+            rgba(255, 255, 255, 1) 100%
+        );
+
+        /* Fonts */
+        --dental-insurance-caption: 600 10px "Source Sans Pro", sans-serif;
+        --dental-insurance-link-2: 400 13px/24px "Source Sans Pro", sans-serif;
+        --dental-insurance-paragraph-2: 400 13px/24px "Source Sans Pro", sans-serif;
+        --dental-insurance-paragraph-2-bold: 600 13px/24px "Source Sans Pro",
+            sans-serif;
+        --dental-insurance-link: 400 16px/24px "Source Sans Pro", sans-serif;
+        --dental-insurance-paragraph: 400 16px/24px "Source Sans Pro", sans-serif;
+        --dental-insurance-paragraph-bold: 600 16px/24px "Source Sans Pro", sans-serif;
+        --dental-insurance-h-6: 400 20px/24px "Montserrat", sans-serif;
+        --dental-insurance-h-6-bold: 600 20px/24px "Montserrat", sans-serif;
+        --dental-insurance-h-5: 400 25px/36px "Montserrat", sans-serif;
+        --dental-insurance-h-5-bold: 600 25px/36px "Montserrat", sans-serif;
+        --dental-insurance-h-4: 400 31px/36px "Montserrat", sans-serif;
+        --dental-insurance-h-4-bold: 600 31px/36px "Montserrat", sans-serif;
+        --dental-insurance-h-3: 400 39px/48px "Montserrat", sans-serif;
+        --dental-insurance-h-3-bold: 600 39px/48px "Montserrat", sans-serif;
+        --dental-insurance-h-2: 400 49px/64px "Montserrat", sans-serif;
+        --dental-insurance-h-2-bold: 600 49px/64px "Montserrat", sans-serif;
+        --dental-insurance-h-1: 400 61px/88px "Montserrat", sans-serif;
+        --dental-insurance-h-1-bold: 600 61px/88px "Montserrat", sans-serif;
+        --wireframe-plandetailspage: 300 15px/21px "Poppins", sans-serif;
+        --wireframe-plandetailheader: 600 22px "Poppins", sans-serif;
+        --wireframe-mobilesubtitles: 600 24px/30px "Poppins", sans-serif;
+        --wireframe-mobilestrong: 600 18px/23px "Poppins", sans-serif;
+        --wireframe-main-body: 400 16px/24px "Poppins", sans-serif;
+        --wireframe-desk-subtitles: 400 28px/36px "Poppins", sans-serif;
+        --wireframe-links: 600 14px "Poppins", sans-serif;
+        --wireframe-mobilemedium: 500 18px/23px "Poppins", sans-serif;
+        --wireframe-mobilesubtitle: 600 22px/30px "Poppins", sans-serif;
+
+        /* Effects */
+        --big-shadow-backdrop-filter: blur(2px);
+        }
+
+        *{
+
+            a:link { 
+                text-decoration: none; 
+            }
+
+
+            a:visited { 
+                text-decoration: none; 
+            }
+    
+    
+            a:hover { 
+                text-decoration: none; 
+            }
+    
+    
+            a:active { 
+                text-decoration: none; 
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+
+
+        .footer,
+        .footer * {
+            box-sizing: border-box;
+        }
+
+        .footer {
+            background: linear-gradient(
+                180deg,
+                rgba(232, 232, 237, 0) 0%,
+                rgba(232, 232, 237, 1) 100%
+            );
+            padding: 96px 120px 96px 120px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            width: 100%;
+            position: relative;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: row;
+            gap: 48px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            align-self: stretch;
+            flex-shrink: 0;
+            position: relative;
+        }
+
+        .col-1 {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            width: 50%;
+            min-height: 259px;
+            position: relative;
+
+            .phone{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-shrink: 0;
+                position: relative;
+    
+                p {
+                    color: var(--dental-insurance-v-2-blue-blue-900, #00324C);
+                    font-size: 2.4375rem;
+                    font-family: Montserrat;
+                    font-weight: 600;
+                    line-height: 60%;
+                }
+                
+            }
+
+        }
+
+        .col-2 {
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            width: 50%;
+            min-height: 259px;
+            position: relative;
+
+            .sep-1 {
+                width: 25%;
+                ol {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 1rem;
+                    padding: 0rem;
+    
+                    li {
+                        font-size: 1rem;
+                        font: var(
+                            --dental-insurance-paragraph,
+                            400 16px/24px "Source Sans Pro",
+                            sans-serif
+                        );
+                        line-height: 1.5rem;
+                        display: inline;
+                        
+                    }
+
+                    a {
+                        color: var(--dental-insurance-v-2-neutral-neutral-900, #41464F);
+                    }
+                }
+            }
+
+            .sep-2 {
+                width: 25%;
+                ol {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 1rem;
+                    padding: 0rem;
+    
+                    li {
+                        font-size: 1rem;
+                        font: var(
+                            --dental-insurance-paragraph,
+                            400 16px/24px "Source Sans Pro",
+                            sans-serif
+                        );
+                        line-height: 1.5rem;
+                        display: inline;
+                        
+                    }
+
+                    a {
+                        color: var(--dental-insurance-v-2-neutral-neutral-900, #41464F);
+                    }
+                }
+            }
+
+        }
+
+        .copyright {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            align-self: stretch;
+            flex-shrink: 0;
+            position: relative;
+
+            .privacy {
+                display: flex;
+                flex-direction: row;
+                gap: 16px;
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-shrink: 0;
+                position: relative;
+            }
+    
+            .year {
+                color: var(--dental-insurancev-2-neutral-neutral-900, #41464f);
+                text-align: left;
+                font: var(
+                    --dental-insurance-paragraph,
+                    400 16px/24px "Source Sans Pro",
+                    sans-serif
+                );
+                position: relative;
+            }
+    
+            .info {
+                color: var(--dental-insurancev-2-neutral-neutral-900, #41464f);
+                text-align: left;
+                font: var(
+                    --dental-insurance-paragraph,
+                    400 16px/24px "Source Sans Pro",
+                    sans-serif
+                );
+                position: relative;
+            }
+    
+            .all-rights {
+                color: var(--dental-insurancev-2-neutral-neutral-900, #41464f);
+                text-align: left;
+                font: var(
+                    --dental-insurance-paragraph,
+                    400 16px/24px "Source Sans Pro",
+                    sans-serif
+                );
+                position: relative;
+            }
+    
+            .site-map {
+                color: var(--dental-insurancev-2-neutral-neutral-900, #41464f);
+                text-align: left;
+
+                position: relative;
+                
+                ol {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    gap: 1rem;
+                    padding: 0rem;
+
+                    li {
+                        font-size: 1rem;
+                        font: var(
+                            --dental-insurance-paragraph,
+                            400 16px/24px "Source Sans Pro",
+                            sans-serif
+                        );
+                        line-height: 1.5rem;
+                        display: inline;
+                        
+                    }
+
+                    a {
+                        color: var(--dental-insurance-v-2-neutral-neutral-900, #41464F);
+                    }
+                }
+            }
+
+        }
+
+
+        @media only screen and (min-width: 375px) and (max-width: 667px){
+            .footer {
+                background: linear-gradient(
+                    180deg,
+                    rgba(232, 232, 237, 0) 0%,
+                    rgba(232, 232, 237, 1) 100%
+                );
+                padding: 48px 16px 96px 16px;
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                align-items: flex-start;
+                justify-content: flex-start;
+                width: 100%;
+                position: relative;
+            }
+
+            .main {
+                display: flex;
+                flex-direction: column;
+                gap: 48px;
+                align-items: flex-start;
+                justify-content: flex-start;
+                align-self: stretch;
+                flex-shrink: 0;
+                position: relative;
+            }
+
+            .col-1 {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-shrink: 0;
+                width: 100%;
+                position: relative;
+    
+                .phone{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 10px;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    flex-shrink: 0;
+                    position: relative;
+        
+                    p {
+                        color: var(--dental-insurance-v-2-blue-blue-900, #00324C);
+                        font-size: 2.4375rem;
+                        font-family: Montserrat;
+                        font-weight: 600;
+                        line-height: 60%;
+                    }
+                    
+                }
+    
+            }
+
+            .col-2 {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-shrink: 0;
+                width: 50%;
+                min-height: 259px;
+                position: relative;
+    
+                .sep-1 {
+                    width: 25%;
+                    ol {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 1rem;
+                        padding: 0rem;
+        
+                        li {
+                            font-size: 1rem;
+                            font: var(
+                                --dental-insurance-paragraph,
+                                400 16px/24px "Source Sans Pro",
+                                sans-serif
+                            );
+                            line-height: 1.5rem;
+                            display: inline;
+                            
+                        }
+    
+                        a {
+                            color: var(--dental-insurance-v-2-neutral-neutral-900, #41464F);
+                        }
+                    }
+                }
+    
+                .sep-2 {
+                    width: 25%;
+                    ol {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 1rem;
+                        padding: 0rem;
+        
+                        li {
+                            font-size: 1rem;
+                            font: var(
+                                --dental-insurance-paragraph,
+                                400 16px/24px "Source Sans Pro",
+                                sans-serif
+                            );
+                            line-height: 1.5rem;
+                            display: inline;
+                            
+                        }
+    
+                        a {
+                            color: var(--dental-insurance-v-2-neutral-neutral-900, #41464F);
+                        }
+                    }
+                }
+    
+            }
+        }
+
