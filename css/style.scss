@@ -563,7 +563,6 @@
             justify-content: flex-start;
             flex-shrink: 0;
             width: 50%;
-            min-height: 259px;
             position: relative;
 
             .phone{
@@ -595,7 +594,6 @@
             justify-content: flex-start;
             flex-shrink: 0;
             width: 50%;
-            min-height: 259px;
             position: relative;
 
             .sep-1 {
@@ -761,7 +759,7 @@
             .main {
                 display: flex;
                 flex-direction: column;
-                gap: 48px;
+                gap: 0px;
                 align-items: flex-start;
                 justify-content: flex-start;
                 align-self: stretch;
@@ -807,12 +805,11 @@
                 align-items: flex-start;
                 justify-content: flex-start;
                 flex-shrink: 0;
-                width: 50%;
-                min-height: 259px;
+                width: 100%;
                 position: relative;
     
                 .sep-1 {
-                    width: 25%;
+                    width: 100%;
                     ol {
                         display: flex;
                         flex-direction: column;
@@ -839,7 +836,7 @@
                 }
     
                 .sep-2 {
-                    width: 25%;
+                    width: 100%;
                     ol {
                         display: flex;
                         flex-direction: column;
@@ -865,6 +862,11 @@
                     }
                 }
     
+            }
+
+            .copyright .privacy{
+                gap: 8px;
+                flex-direction: column;
             }
         }
 

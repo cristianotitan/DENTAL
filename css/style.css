@@ -545,7 +545,6 @@
   justify-content: flex-start;
   flex-shrink: 0;
   width: 50%;
-  min-height: 259px;
   position: relative;
 }
 .col-1 .phone {
@@ -573,7 +572,6 @@
   justify-content: flex-start;
   flex-shrink: 0;
   width: 50%;
-  min-height: 259px;
   position: relative;
 }
 .col-2 .sep-1 {
@@ -689,7 +687,7 @@
   .main {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 0px;
     align-items: flex-start;
     justify-content: flex-start;
     align-self: stretch;
@@ -729,12 +727,11 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-shrink: 0;
-    width: 50%;
-    min-height: 259px;
+    width: 100%;
     position: relative;
   }
   .col-2 .sep-1 {
-    width: 25%;
+    width: 100%;
   }
   .col-2 .sep-1 ol {
     display: flex;
@@ -753,7 +750,7 @@
     color: var(--dental-insurance-v-2-neutral-neutral-900, #41464F);
   }
   .col-2 .sep-2 {
-    width: 25%;
+    width: 100%;
   }
   .col-2 .sep-2 ol {
     display: flex;
@@ -770,5 +767,9 @@
   }
   .col-2 .sep-2 ol a {
     color: var(--dental-insurance-v-2-neutral-neutral-900, #41464F);
+  }
+  .copyright .privacy {
+    gap: 8px;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
